@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="FA5Dark" version="1821">
+<theme name="FA5Dark" version="1822">
 	<properties>
-		<templateset><![CDATA[2]]></templateset>
+		<templateset><![CDATA[9]]></templateset>
 		<editortheme><![CDATA[buttons-dark.css]]></editortheme>
 		<imgdir><![CDATA[themes/FA5Dark]]></imgdir>
 		<logo><![CDATA[themes/FA5Dark/logo.png]]></logo>
@@ -11,7 +11,7 @@
 		<disporder><![CDATA[a:18:{s:10:"global.css";i:1;s:8:"css3.css";i:2;s:10:"usercp.css";i:3;s:9:"modcp.css";i:4;s:17:"thread_status.css";i:5;s:14:"showthread.css";i:6;s:16:"star_ratings.css";i:7;s:15:"color_black.css";i:8;s:14:"color_calm.css";i:9;s:14:"color_dawn.css";i:10;s:15:"color_earth.css";i:11;s:15:"color_flame.css";i:12;s:14:"color_leaf.css";i:13;s:15:"color_night.css";i:14;s:13:"color_sun.css";i:15;s:18:"color_twilight.css";i:16;s:15:"color_water.css";i:17;s:17:"gidpostborder.css";i:18;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1821"><![CDATA[/*
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: star_rating.css
@@ -102,9 +102,10 @@
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1821"><![CDATA[/*
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: thread_status.css
@@ -497,9 +498,10 @@
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1821"><![CDATA[/*
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: showthread.css
@@ -596,9 +598,10 @@ ul.thread_tools li.poll:after {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|private.php" version="1821"><![CDATA[/*
+		<stylesheet name="usercp.css" attachedto="usercp.php|private.php" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: usercp.css
@@ -882,9 +885,10 @@ td[class^=trow]{
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1821"><![CDATA[/*
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: modcp.css
@@ -1001,9 +1005,10 @@ td[class^=trow]{
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_sun.css" attachedto="sun" version="1821"><![CDATA[/*
+		<stylesheet name="color_sun.css" attachedto="sun" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_calm.css
@@ -1249,9 +1254,10 @@ color: #ffdd4d;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_twilight.css" attachedto="twilight" version="1821"><![CDATA[/*
+		<stylesheet name="color_twilight.css" attachedto="twilight" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_twilight.css
@@ -1490,9 +1496,10 @@ color: #A0A0A0;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_water.css" attachedto="water" version="1821"><![CDATA[/*
+		<stylesheet name="color_water.css" attachedto="water" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_water.css
@@ -1731,9 +1738,10 @@ color: #1e6365;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_flame.css" attachedto="flame" version="1821"><![CDATA[/*
+		<stylesheet name="color_flame.css" attachedto="flame" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_flame.css
@@ -1970,9 +1978,10 @@ color: #750000;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_leaf.css" attachedto="leaf" version="1821"><![CDATA[/*
+		<stylesheet name="color_leaf.css" attachedto="leaf" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_leaf.css
@@ -2211,9 +2220,10 @@ color: #386e21;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_night.css" attachedto="night" version="1821"><![CDATA[/*
+		<stylesheet name="color_night.css" attachedto="night" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_night.css
@@ -2452,9 +2462,10 @@ color: #A0A0A0;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_black.css" attachedto="black" version="1821"><![CDATA[/*
+		<stylesheet name="color_black.css" attachedto="black" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_black.css
@@ -2778,9 +2789,10 @@ color: #A0A0A0;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_calm.css" attachedto="calm" version="1821"><![CDATA[/*
+		<stylesheet name="color_calm.css" attachedto="calm" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_calm.css
@@ -3024,9 +3036,10 @@ color: #385947;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_dawn.css" attachedto="dawn" version="1821"><![CDATA[/*
+		<stylesheet name="color_dawn.css" attachedto="dawn" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_dawn.css
@@ -3265,9 +3278,10 @@ color: #d56c2c;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1821"><![CDATA[/*
+		<stylesheet name="css3.css" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: css3.css
@@ -3430,9 +3444,10 @@ button, input.button, input.textbox, input.invalid_field, input.valid_field, sel
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="global.css" version="1821"><![CDATA[/*
+		<stylesheet name="global.css" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: global.css
@@ -6105,9 +6120,10 @@ div.jqi .jqisubstate .jqibuttons button{
 /* END: Custom Scrollbar */	
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="gidpostborder.css" version="1821"><![CDATA[/*
+		<stylesheet name="gidpostborder.css" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: gidpostborder.css
@@ -6208,9 +6224,10 @@ div.jqi .jqisubstate .jqibuttons button{
 
 .post.classic > .post_content {
    padding:  1% 1% 5px 1% !important;
-}]]>
+}
+		]]>
 		</stylesheet>
-		<stylesheet name="color_earth.css" attachedto="earth" version="1821"><![CDATA[/*
+		<stylesheet name="color_earth.css" attachedto="earth" version="1822"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_earth.css
@@ -6446,6 +6463,7 @@ color: #4a3b2f;
 }
 
 
+		
 		
 		
 		
@@ -6897,8 +6915,8 @@ $(".forumjump").on('change', function() {
 		<template name="header_menu_memberlist" version="1819"><![CDATA[<li><a href="{$mybb->settings['bburl']}/memberlist.php" class="memberlist"><i class="fas fa-users toplinks-memberlist"></i> {$lang->toplinks_memberlist}</a></li>]]></template>
 		<template name="header_menu_portal" version="1819"><![CDATA[<li><a href="{$mybb->settings['bburl']}/portal.php" class="portal"><i class="fa fa-bell toplinks-portal"></i> {$lang->toplinks_portal}</a></li>]]></template>
 		<template name="header_menu_search" version="1819"><![CDATA[<li><a href="{$mybb->settings['bburl']}/search.php" class="search"><i class="fas fa-search toplinks-search"></i> {$lang->toplinks_search}</a></li>]]></template>
-		<template name="header_quicksearch" version="1820"><![CDATA[                    <form action="{$mybb->settings['bburl']}/search.php" method="post">
-			<fieldset id="search">
+		<template name="header_quicksearch" version="1822"><![CDATA[						<form action="{$mybb->settings['bburl']}/search.php">
+						<fieldset id="search">
                             <input name="keywords" type="text" class="textbox" placeholder="Search..." />
                             <i class="fas fa-search search_icon"></i><input value="" type="submit" class="search_icon" />
 							<input type="hidden" name="action" value="do_search" />
@@ -7404,7 +7422,7 @@ if(use_xmlhttprequest == "1")
 	{$footer}
 </body>
 </html>]]></template>
-		<template name="modcp_editprofile" version="1820"><![CDATA[<html>
+		<template name="modcp_editprofile" version="1822"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->edit_profile}</title>
 {$headerinclude}
@@ -7458,11 +7476,11 @@ if(use_xmlhttprequest == "1")
                                                <span class="select-wrap">
 												<select name="birthday_day">
 													<option value="">&nbsp;</option>
-													{$bdaydaysel}
+                                                    {$bdaydaysel}
 												</select></span>
 											</td>
 											<td>
-												<span class="select-wrap">
+											<span class="select-wrap">
 												<select name="birthday_month">
 													<option value="">&nbsp;</option>
 													<option value="1" {$bdaymonthsel['1']}>{$lang->month_1}</option>
@@ -7477,7 +7495,7 @@ if(use_xmlhttprequest == "1")
 													<option value="10" {$bdaymonthsel['10']}>{$lang->month_10}</option>
 													<option value="11" {$bdaymonthsel['11']}>{$lang->month_11}</option>
 													<option value="12" {$bdaymonthsel['12']}>{$lang->month_12}</option>
-												</select></span>
+												</select></span>	
 											</td>
 											<td>
 												<input type="text" class="textbox" size="4" maxlength="4" name="birthday_year" value="{$birthday_year}" />
@@ -7544,12 +7562,6 @@ if(use_xmlhttprequest == "1")
 										</tr>
 										<tr>
 											<td><input type="text" class="textbox" name="google" size="25" value="{$user_google}" /></td>
-										</tr>
-										<tr>
-											<td><span class="smalltext">{$lang->yahoo_id}</span></td>
-										</tr>
-										<tr>
-											<td><input type="text" class="textbox" name="yahoo" size="25" value="{$user_yahoo}" /></td>
 										</tr>
 									</table>
 								</fieldset>
@@ -8361,7 +8373,7 @@ if(use_xmlhttprequest == "1")
 <td class="trow2" align="right"><span class="smalltext">{$senddate}</span></td>
 <td class="trow1"><input type="checkbox" class="checkbox" name="unreadcheck[{$unreadmessage['pmid']}]" value="1" /></td>
 </tr>]]></template>
-		<template name="search" version="1820"><![CDATA[<html>
+		<template name="search" version="1822"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->search}</title>
 {$headerinclude}
@@ -8399,11 +8411,11 @@ if(use_xmlhttprequest == "1")
 <tr>
 <td class="trow1 no_bottom_border" rowspan="{$rowspan}">{$srchlist}</td>
 <td class="trow1">
-<span class="select-wrap">	
+<span class="select-wrap">		
 <select name="findthreadst">
 <option value="1">{$lang->threads_at_least}</option>
 <option value="2">{$lang->threads_at_most}</option>
-</select> </span> <input type="text" class="textbox" name="numreplies" size="2" maxlength="4" />&nbsp;{$lang->replies2}<br />
+</select> </span><input type="text" class="textbox" name="numreplies" size="2" maxlength="4" />&nbsp;{$lang->replies2}<br />
 <br /><span class="select-wrap">
 <select name="postdate">
 <option value="0">{$lang->find_anydate}</option>
@@ -8430,7 +8442,7 @@ if(use_xmlhttprequest == "1")
 <option value="starter">{$lang->sort_author}</option>
 <option value="forum">{$lang->sort_forum}</option>
 <option value="views">{$lang->sort_views}</option>
-<option value="replies">{$lang->sort_replies}</option>	
+<option value="replies">{$lang->sort_replies}</option>
 </select> </span> {$lang->sort_in} <input type="radio" class="radio" name="sortordr" value="asc" />{$lang->sort_asc} <input type="radio" class="radio" name="sortordr" value="desc" checked="checked" />{$lang->sort_desc} {$lang->sort_order}
 </td>
 </tr>
