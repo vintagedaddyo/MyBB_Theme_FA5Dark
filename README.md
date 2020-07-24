@@ -29,7 +29,8 @@ FA5Dark v1.0
 » Changelog:
 
 History:
-
+07/23/2020 - Theme updated for mybb 1.8.23
+01/1/2020 - Theme updated for mybb 1.8.22
 6/27/2019 — Theme updated for mybb 1.8.21
 2/28/2019 — Theme updated for mybb 1.8.20
 11/2/2018 — Theme initial creation
