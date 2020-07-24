@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="FA5Dark" version="1822">
+<theme name="FA5Dark" version="1823">
 	<properties>
-		<templateset><![CDATA[17]]></templateset>
+		<templateset><![CDATA[3]]></templateset>
 		<editortheme><![CDATA[FA5-Dark.css]]></editortheme>
 		<imgdir><![CDATA[themes/FA5Dark]]></imgdir>
 		<logo><![CDATA[themes/FA5Dark/logo.png]]></logo>
@@ -11,7 +11,7 @@
 		<disporder><![CDATA[a:18:{s:10:"global.css";i:1;s:8:"css3.css";i:2;s:10:"usercp.css";i:3;s:9:"modcp.css";i:4;s:17:"thread_status.css";i:5;s:14:"showthread.css";i:6;s:16:"star_ratings.css";i:7;s:15:"color_black.css";i:8;s:14:"color_calm.css";i:9;s:14:"color_dawn.css";i:10;s:15:"color_earth.css";i:11;s:15:"color_flame.css";i:12;s:14:"color_leaf.css";i:13;s:15:"color_night.css";i:14;s:13:"color_sun.css";i:15;s:18:"color_twilight.css";i:16;s:15:"color_water.css";i:17;s:17:"gidpostborder.css";i:18;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="gidpostborder.css" version="1822"><![CDATA[/*
+		<stylesheet name="gidpostborder.css" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: gidpostborder.css
@@ -114,9 +114,10 @@
    padding:  1% 1% 5px 1% !important;
 }
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="global.css" version="1822"><![CDATA[/*
+		<stylesheet name="global.css" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: global.css
@@ -1276,6 +1277,9 @@ table {
 }
 .post.unapproved_post {
 	background: #ffdde0;
+}
+.thread_start_datetime {
+	color: #999;
 }
 .post.unapproved_post .post_author {
 	border-bottom-color: #ffb8be;
@@ -2791,9 +2795,10 @@ div.jqi .jqisubstate .jqibuttons button{
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1822"><![CDATA[/*
+		<stylesheet name="css3.css" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: css3.css
@@ -2958,9 +2963,10 @@ button, input.button, input.textbox, input.invalid_field, input.valid_field, sel
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_earth.css" attachedto="earth" version="1822"><![CDATA[/*
+		<stylesheet name="color_earth.css" attachedto="earth" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_earth.css
@@ -3201,9 +3207,10 @@ color: #4a3b2f;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1822"><![CDATA[/*
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: showthread.css
@@ -3302,9 +3309,10 @@ ul.thread_tools li.poll:after {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1822"><![CDATA[/*
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: star_rating.css
@@ -3397,297 +3405,10 @@ ul.thread_tools li.poll:after {
 		
 		
 		
-		]]>
-		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|private.php" version="1822"><![CDATA[/*
- * MyBB: FA5Dark Frontend Theme 
- *
- * File: usercp.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-.cp_options td:first-child{
-      width:230px;
-}
-
-.usercp_options{
-      margin:0;
-      padding:0;
-      list-style:none outside none;
-}
-
-.usercp_options>li{
-      margin:0;
-      padding:4px 0px;
-}
-
-.usercp_options>li>span{
-      display:inline-block;
-      text-align:right;
-}
-
-.usercp_nav_item{
-      display:block;
-}
-
-.usercp_nav_item a {
-	color:#0072BC;
-}
-
-.usercp_nav_item:before{
-      font-size:16px;
-      font-family:"Font Awesome 5 Free";
-	  font-weight: 900;
-      color: #0072BC;
-      width:28px;
-      margin-right:3px;
-      text-align:center;
-      display:inline-block;
-}
-
-.usercp_nav_composepm:before{
-      content:"\f3e5";
-}
-
-.usercp_nav_pmfolder:before{
-      content:"\f07c";
-}
-
-.usercp_nav_sub_pmfolder:before{
-      content:"\f07b";
-}
-
-.usercp_nav_trash_pmfolder:before{
-      content:"\f2ed";
-}
-
-.usercp_nav_pmtracking:before{
-      content:"\f024";
-}
-
-.usercp_nav_pmfolders:before{
-      content:"\f07b";
-}
-
-.usercp_nav_profile:before{
-      content:"\f007";
-}
-
-.usercp_nav_email:before{
-      content:"\f0e0";
-}
-
-.usercp_nav_password:before{
-      content:"\f084";
-}
-
-.usercp_nav_username:before{
-      content:"\f111";
-}
-
-.usercp_nav_editsig:before{
-      content:"\f303";
-}
-
-.usercp_nav_avatar:before{
-      content:"\f03e";
-}
-
-.usercp_nav_options:before{
-      content:"\f085";
-}
-
-.usercp_nav_usergroups:before{
-      content:"\f0c0";
-}
-
-.usercp_nav_editlists:before{
-      content:"\f004";
-}
-
-.usercp_nav_attachments:before{
-      content:"\f0c6";
-}
-
-.usercp_nav_drafts:before{
-      content:"\f303";
-}
-
-.usercp_nav_subscriptions:before{
-      content:"\f02e";
-}
-
-.usercp_nav_fsubscriptions:before{
-      content:"\f03a";
-}
-
-.usercp_nav_notepad:before{
-      content:"\f02d";
-}
-
-.usercp_nav_viewprofile:before{
-      content:"\f007";
-}
-
-.usercp_nav_home:before{
-      content:"\f015";
-}
-
-.usercp_nav_status:before{
-      content:"\f118";
-}
-
-.usercp_nav_myalerts:before{
-      content:"\f0f3";
-}
-
-.usercp_nav_myalerts_delete_all:before{
-      content:"\f058";
-}
-
-.usercp_nav_myalerts_delete_read:before{
-      content:"\f05c";
-}
-
-.usercp_nav_award:before{
-      content:"\f091";
-}
-
-.usercp_notepad{
-      width:99%;
-}
-
-#usercpalerts_e td[class^="trow"],#usercppms_e td[class^="trow"],#usercpprofile_e td[class^="trow"],#usercpmisc_e td[class^="trow"]{
-      border:none;
-      padding:0px;
-}
-
-.pagination{
-      padding:3px 0px;
-}
-
-.usercp_notepad{
-      width:99%;
-}
-
-.usercp_container{
-      margin:5px;
-      padding:8px;
-}
-
-td[class^=trow]{
-      border:none;
-}
-
-.pmspace {
-	float: right;
-	margin: -3px 5px;
-}
-
-.pmspace_container {
-	background: #fff;
-	border: 1px solid #ccc;
-	width: 100px;
-	display: inline-block;
-}
-
-.pmspace_used {
-	display: inline-block;
-	color: #fff;
-	margin: -1px;
-}
-
-.pmspace_used.low {
-	border: 1px solid #0c5a01;
-	background: #167203;
-}
-
-.pmspace_used.medium {
-	background: #ff862b;
-	border: 1px solid #d7611e;
-}
-
-.pmspace_used.high {
-	background: #e73c3c;
-	border: 1px solid #c00;
-}
-
-.pmspace_unused {
-	display: inline-block;
-}
-
-.pmspace_text {
-	padding: 1px 5px;
-	display: inline-block;
-}
-
-.new_pm {
-	font-weight: bold;
-}
-
-/** FA PM Icons **/
-
-.x_new_pm:before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f0e0";
-    font-size: 16px;
-}
-
-.x_old_pm:before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f2b6";
-    font-size: 16px;
-}
-
-.x_fw_pm:before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f2b6";
-    position: absolute;
-    font-size: 16px;
-}
-
-.x_fw_pm:after {
-    font-family: "Font Awesome 5 Free";
-    content: "\f30b";
-    position: relative;
-    top: 11px;
-    left: 5px;
-    color: #5b94c5;
-    font-size: 16px;
-	font-weight: 900;
-}
-
-.x_re_pm:before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f2b6";
-    position: absolute;
-    font-size: 16px;
-}
-
-.x_re_pm:after {
-    font-family: "Font Awesome 5 Free";
-    content: "\f30a";
-    position: relative;
-    top: 11px;
-    right: 5px;
-    color: #663096;
-    font-size: 16px;
-	font-weight: 900;
-}
-		
-		
-		
-		
 		
 		]]>
 		</stylesheet>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1822"><![CDATA[/*
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: thread_status.css
@@ -4082,9 +3803,299 @@ td[class^=trow]{
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1822"><![CDATA[/*
+		<stylesheet name="usercp.css" attachedto="usercp.php|private.php" version="1823"><![CDATA[/*
+ * MyBB: FA5Dark Frontend Theme 
+ *
+ * File: usercp.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+.cp_options td:first-child{
+      width:230px;
+}
+
+.usercp_options{
+      margin:0;
+      padding:0;
+      list-style:none outside none;
+}
+
+.usercp_options>li{
+      margin:0;
+      padding:4px 0px;
+}
+
+.usercp_options>li>span{
+      display:inline-block;
+      text-align:right;
+}
+
+.usercp_nav_item{
+      display:block;
+}
+
+.usercp_nav_item a {
+	color:#0072BC;
+}
+
+.usercp_nav_item:before{
+      font-size:16px;
+      font-family:"Font Awesome 5 Free";
+	  font-weight: 900;
+      color: #0072BC;
+      width:28px;
+      margin-right:3px;
+      text-align:center;
+      display:inline-block;
+}
+
+.usercp_nav_composepm:before{
+      content:"\f3e5";
+}
+
+.usercp_nav_pmfolder:before{
+      content:"\f07c";
+}
+
+.usercp_nav_sub_pmfolder:before{
+      content:"\f07b";
+}
+
+.usercp_nav_trash_pmfolder:before{
+      content:"\f2ed";
+}
+
+.usercp_nav_pmtracking:before{
+      content:"\f024";
+}
+
+.usercp_nav_pmfolders:before{
+      content:"\f07b";
+}
+
+.usercp_nav_profile:before{
+      content:"\f007";
+}
+
+.usercp_nav_email:before{
+      content:"\f0e0";
+}
+
+.usercp_nav_password:before{
+      content:"\f084";
+}
+
+.usercp_nav_username:before{
+      content:"\f111";
+}
+
+.usercp_nav_editsig:before{
+      content:"\f303";
+}
+
+.usercp_nav_avatar:before{
+      content:"\f03e";
+}
+
+.usercp_nav_options:before{
+      content:"\f085";
+}
+
+.usercp_nav_usergroups:before{
+      content:"\f0c0";
+}
+
+.usercp_nav_editlists:before{
+      content:"\f004";
+}
+
+.usercp_nav_attachments:before{
+      content:"\f0c6";
+}
+
+.usercp_nav_drafts:before{
+      content:"\f303";
+}
+
+.usercp_nav_subscriptions:before{
+      content:"\f02e";
+}
+
+.usercp_nav_fsubscriptions:before{
+      content:"\f03a";
+}
+
+.usercp_nav_notepad:before{
+      content:"\f02d";
+}
+
+.usercp_nav_viewprofile:before{
+      content:"\f007";
+}
+
+.usercp_nav_home:before{
+      content:"\f015";
+}
+
+.usercp_nav_status:before{
+      content:"\f118";
+}
+
+.usercp_nav_myalerts:before{
+      content:"\f0f3";
+}
+
+.usercp_nav_myalerts_delete_all:before{
+      content:"\f058";
+}
+
+.usercp_nav_myalerts_delete_read:before{
+      content:"\f05c";
+}
+
+.usercp_nav_award:before{
+      content:"\f091";
+}
+
+.usercp_notepad{
+      width:99%;
+}
+
+#usercpalerts_e td[class^="trow"],#usercppms_e td[class^="trow"],#usercpprofile_e td[class^="trow"],#usercpmisc_e td[class^="trow"]{
+      border:none;
+      padding:0px;
+}
+
+.pagination{
+      padding:3px 0px;
+}
+
+.usercp_notepad{
+      width:99%;
+}
+
+.usercp_container{
+      margin:5px;
+      padding:8px;
+}
+
+td[class^=trow]{
+      border:none;
+}
+
+.pmspace {
+	float: right;
+	margin: -3px 5px;
+}
+
+.pmspace_container {
+	background: #fff;
+	border: 1px solid #ccc;
+	width: 100px;
+	display: inline-block;
+}
+
+.pmspace_used {
+	display: inline-block;
+	color: #fff;
+	margin: -1px;
+}
+
+.pmspace_used.low {
+	border: 1px solid #0c5a01;
+	background: #167203;
+}
+
+.pmspace_used.medium {
+	background: #ff862b;
+	border: 1px solid #d7611e;
+}
+
+.pmspace_used.high {
+	background: #e73c3c;
+	border: 1px solid #c00;
+}
+
+.pmspace_unused {
+	display: inline-block;
+}
+
+.pmspace_text {
+	padding: 1px 5px;
+	display: inline-block;
+}
+
+.new_pm {
+	font-weight: bold;
+}
+
+/** FA PM Icons **/
+
+.x_new_pm:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0e0";
+    font-size: 16px;
+}
+
+.x_old_pm:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f2b6";
+    font-size: 16px;
+}
+
+.x_fw_pm:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f2b6";
+    position: absolute;
+    font-size: 16px;
+}
+
+.x_fw_pm:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f30b";
+    position: relative;
+    top: 11px;
+    left: 5px;
+    color: #5b94c5;
+    font-size: 16px;
+	font-weight: 900;
+}
+
+.x_re_pm:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f2b6";
+    position: absolute;
+    font-size: 16px;
+}
+
+.x_re_pm:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f30a";
+    position: relative;
+    top: 11px;
+    right: 5px;
+    color: #663096;
+    font-size: 16px;
+	font-weight: 900;
+}
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: modcp.css
@@ -4203,9 +4214,10 @@ td[class^=trow]{
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_sun.css" attachedto="sun" version="1822"><![CDATA[/*
+		<stylesheet name="color_sun.css" attachedto="sun" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_calm.css
@@ -4453,9 +4465,10 @@ color: #ffdd4d;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_twilight.css" attachedto="twilight" version="1822"><![CDATA[/*
+		<stylesheet name="color_twilight.css" attachedto="twilight" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_twilight.css
@@ -4696,9 +4709,10 @@ color: #A0A0A0;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_water.css" attachedto="water" version="1822"><![CDATA[/*
+		<stylesheet name="color_water.css" attachedto="water" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_water.css
@@ -4939,9 +4953,10 @@ color: #1e6365;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_flame.css" attachedto="flame" version="1822"><![CDATA[/*
+		<stylesheet name="color_flame.css" attachedto="flame" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_flame.css
@@ -5180,9 +5195,10 @@ color: #750000;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_leaf.css" attachedto="leaf" version="1822"><![CDATA[/*
+		<stylesheet name="color_leaf.css" attachedto="leaf" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_leaf.css
@@ -5423,9 +5439,10 @@ color: #386e21;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_night.css" attachedto="night" version="1822"><![CDATA[/*
+		<stylesheet name="color_night.css" attachedto="night" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_night.css
@@ -5666,9 +5683,10 @@ color: #A0A0A0;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_black.css" attachedto="black" version="1822"><![CDATA[/*
+		<stylesheet name="color_black.css" attachedto="black" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_black.css
@@ -5994,9 +6012,10 @@ color: #A0A0A0;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_calm.css" attachedto="calm" version="1822"><![CDATA[/*
+		<stylesheet name="color_calm.css" attachedto="calm" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_calm.css
@@ -6242,9 +6261,10 @@ color: #385947;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_dawn.css" attachedto="dawn" version="1822"><![CDATA[/*
+		<stylesheet name="color_dawn.css" attachedto="dawn" version="1823"><![CDATA[/*
  * MyBB: FA5Dark Frontend Theme 
  *
  * File: color_dawn.css
@@ -6480,6 +6500,7 @@ color: #d56c2c;
 }
 
 
+		
 		
 		
 		
@@ -6861,13 +6882,13 @@ $(".forumjump").on('change', function() {
 				{$awaitingusers}
                 <navigation>
                 <br />]]></template>
-		<template name="headerinclude" version="1820"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
+		<template name="headerinclude" version="1823"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
 <link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1820"></script>
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1820"></script>
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1820"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1823"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1821"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1821"></script>
 
 <!-- Add Favicon -->
 <link rel="Shortcut icon" href="{$theme['imgdir']}/favicon-comments.ico" />
@@ -6959,9 +6980,9 @@ $(".forumjump").on('change', function() {
 				<script type="text/javascript">
 					$("#quick_login input[name='url']").val($(location).attr('href'));
 				</script>]]></template>
-		<template name="header_welcomeblock_guest_login_modal" version="1819"><![CDATA[                        <tr>
+		<template name="header_welcomeblock_guest_login_modal" version="1823"><![CDATA[                        <tr>
                                 <td class="login_form quick_username">
-                                 <i class="fas fa-user quick_username"></i><input value="" name="quick_username" type="text" placeholder="{$login_username}" id="quick_login_username" class="textbox">
+                                 <i class="fas fa-user quick_username"></i><input value="" name="quick_username" type="textbox" placeholder="{$login_username}" id="quick_login_username" class="textbox initial_focus">
                                </td>
                                  <td class="login_form submit"  rowspan="2" vertical-align="middle">
                                     <input name="submit" type="submit" class="login" value="{$lang->login}" />
@@ -7022,7 +7043,7 @@ $(".forumjump").on('change', function() {
 		<template name="index_logoutlink" version="1819"><![CDATA[<a href="member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}"><i class="fas fa-power-off tfoot-logout"></i> {$lang->index_logout}</a>]]></template>
 		<template name="index_showteamlink" version="1819"><![CDATA[{$show_team_link_separator}<a href="showteam.php"><i class="fas fa-users tfoot-team"></i> {$lang->forumteam}</a>]]></template>
 		<template name="index_statspage" version="1819"><![CDATA[{$stats_page_separator}<a href="stats.php"><i class="fas fa-chart-bar tfoot-stats"></i> {$lang->forumstats}</a>]]></template>
-		<template name="memberlist" version="1821"><![CDATA[<html>
+		<template name="memberlist" version="1823"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->member_list}</title>
 {$headerinclude}
@@ -7094,7 +7115,7 @@ $(".forumjump").on('change', function() {
 </tr>
 <tr>
 	<td class="trow1" width="33%" style="vertical-align: top;">
-		{$lang->contains}<br />
+		{$lang->exactly}<br />
 		<input type="text" class="textbox" name="username" id="username" style="width: 99%; margin-top: 4px;" value="{$search_username}" />
 	</td>
 	<td class="trow1" width="33%" style="vertical-align: top;">
@@ -7264,7 +7285,7 @@ if(use_xmlhttprequest == "1")
 {$footer}
 </body>
 </html>]]></template>
-		<template name="modcp_announcements_edit" version="1820"><![CDATA[<html>
+		<template name="modcp_announcements_edit" version="1823"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->edit_announcement}</title>
 {$headerinclude}
@@ -7343,7 +7364,7 @@ if(use_xmlhttprequest == "1")
 					</table>
 					<br />
 					<div align="center">
-						<input type="submit" class="button" name="Edit Announcement" value="{$lang->edit_announcement}" />&nbsp;&nbsp;
+						<input type="submit" class="button" value="{$lang->edit_announcement}" />&nbsp;&nbsp;
 						<input type="submit" class="button" name="preview" value="{$lang->preview}" />
 					</div>
 				</td>
@@ -7353,7 +7374,7 @@ if(use_xmlhttprequest == "1")
 	{$footer}
 </body>
 </html>]]></template>
-		<template name="modcp_announcements_new" version="1820"><![CDATA[<html>
+		<template name="modcp_announcements_new" version="1823"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->add_announcement}</title>
 {$headerinclude}
@@ -7430,7 +7451,7 @@ if(use_xmlhttprequest == "1")
 					</table>
 					<br />
 					<div align="center">
-						<input type="submit" class="button" name="Add Announcement" value="{$lang->add_announcement}" />&nbsp;&nbsp;
+						<input type="submit" class="button" value="{$lang->add_announcement}" />&nbsp;&nbsp;
 						<input type="submit" class="button" name="preview" value="{$lang->preview}" />
 					</div>
 				</td>
@@ -7768,7 +7789,7 @@ if(use_xmlhttprequest == "1")
 <select name="{$select_name}">
 	{$selection_options}
 </select></span>]]></template>
-		<template name="modcp_finduser" version="1820"><![CDATA[<html>
+		<template name="modcp_finduser" version="1823"><![CDATA[<html>
 <head>
 	<title>{$mybb->settings['bbname']} - {$lang->find_users}</title>
 {$headerinclude}
@@ -7843,6 +7864,7 @@ if(use_xmlhttprequest == "1")
 		placeholder: "{$lang->find_users}",
 		minimumInputLength: 2,
 		multiple: false,
+		allowClear: true,
 		ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
 			url: "xmlhttp.php?action=get_users",
 			dataType: 'json',
@@ -7954,7 +7976,7 @@ if(use_xmlhttprequest == "1")
 {$footer}
 </body>
 </html>]]></template>
-		<template name="modcp_warninglogs" version="1820"><![CDATA[<html>
+		<template name="modcp_warninglogs" version="1823"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->warning_logs}</title>
 {$headerinclude}
@@ -8043,6 +8065,7 @@ if(use_xmlhttprequest == "1")
 		placeholder: "{$lang->search_user}",
 		minimumInputLength: 2,
 		multiple: false,
+		allowClear: true,
 		ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
 			url: "xmlhttp.php?action=get_users",
 			dataType: 'json',
@@ -8220,7 +8243,7 @@ if(use_xmlhttprequest == "1")
 <td class="trow1" style="white-space: nowrap"><strong>{$lang->new_attachment}</strong> <input type="file" name="attachments[]" size="30" class="fileupload" multiple="multiple" /></td>
 <td class="trow1" style="white-space: nowrap" align="center">{$attach_update_options} {$attach_add_options}</td>
 </tr>]]></template>
-		<template name="private_advanced_search" version="1820"><![CDATA[<html>
+		<template name="private_advanced_search" version="1823"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->advanced_private_message_search}</title>
 {$headerinclude}
@@ -8310,6 +8333,7 @@ if(use_xmlhttprequest == "1")
 		placeholder: "{$lang->search_user}",
 		minimumInputLength: 2,
 		multiple: false,
+		allowClear: true,
 		ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
 			url: "xmlhttp.php?action=get_users",
 			dataType: 'json',
@@ -8391,7 +8415,8 @@ if(use_xmlhttprequest == "1")
 <td class="trow2" align="right"><span class="smalltext">{$senddate}</span></td>
 <td class="trow1"><input type="checkbox" class="checkbox" name="unreadcheck[{$unreadmessage['pmid']}]" value="1" /></td>
 </tr>]]></template>
-		<template name="search" version="1822"><![CDATA[<html>
+		<template name="search" version="1823"><![CDATA[<html>
+<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->search}</title>
 {$headerinclude}
@@ -8486,6 +8511,7 @@ if(use_xmlhttprequest == "1")
 		placeholder: "{$lang->search_user}",
 		minimumInputLength: 2,
 		multiple: false,
+		allowClear: true,
 		ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
 			url: "xmlhttp.php?action=get_users",
 			dataType: 'json',
