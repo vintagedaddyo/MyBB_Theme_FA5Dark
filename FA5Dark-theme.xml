@@ -7055,6 +7055,25 @@ $(".forumjump").on('change', function() {
                                     <label for="quick_login_remember">{$lang->remember_me}</label>
                                 </td>
                             </tr>]]></template>
+		<template name="header_welcomeblock_member" version="1827"><![CDATA[<!-- Continuation of div(class="upper") as opened in the header template -->
+	<span class="welcome">{$lang->welcome_back} <a href="{$mybb->settings['bburl']}/member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}" class="logout"><i class="fas fa-sign-in-alt panel-logout"></i>{$lang->welcome_logout}</a></span>
+	</div>
+</div>
+<div class="lower">
+	<div class="wrapper">
+		<ul class="menu panel_links">
+			{$usercplink}
+			{$modcplink}
+			{$admincplink}
+		</ul>
+		<ul class="menu user_links">
+			{$buddylink}
+			{$searchlink}
+			{$pmslink}
+		</ul>
+	</div>
+	<br class="clear" />
+</div>]]></template>
 		<template name="header_welcomeblock_member_admin" version="1819"><![CDATA[<li><a href="{$mybb->settings['bburl']}/{$admin_dir}/index.php" class="admincp"><i class="fas fa-cog panel-admincp"></i> {$lang->welcome_admin}</a></li>]]></template>
 		<template name="header_welcomeblock_member_moderator" version="1819"><![CDATA[<li><a href="{$mybb->settings['bburl']}/modcp.php" class="modcp"><i class="fas fa-file-alt panel-modcp"></i> {$lang->welcome_modcp}</a></li>]]></template>
 		<template name="header_welcomeblock_member_user" version="1821"><![CDATA[<li><a href="{$mybb->settings['bburl']}/usercp.php" class="usercp"><i class="fas fa-user panel-usercp"></i> {$lang->welcome_usercp}</a></li>]]></template>
