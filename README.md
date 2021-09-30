@@ -1,6 +1,6 @@
 # MyBB_Theme_FA5Dark
 
-FA5Dark v1.0
+FA5Dark v1.1
 » About:
 
 Current FA 5 library: fontawesome-free-5.14.0
@@ -10,7 +10,7 @@ This theme for MyBB enthusiasts is made simply to allow for users having trouble
 
 * For anyone having trouble with any of the tutorials supplied in that thread..., well, here is simply the default theme with all colors, and a good majority of the tutorials in that thread applied in it.
 
-FA5Dark v1.0
+FA5Dark v1.1
 » Installation:
 
 1.) After downloading the Theme unpack it (with 7-Zip for example)
@@ -19,18 +19,19 @@ FA5Dark v1.0
 4.) Search for the XML File titled "FA5Dark-theme.xml" in the theme folder found on your computer and click the Button "Import Theme" this will upload the file from your computer to your forum.
 5.) Now have fun with your forum!
 
-FA5Dark v1.0
+FA5Dark v1.1
 » License:
 
 
 You may not remove or change the MyBB copyright nor the Designed by: "Vintagedaddyo" statements in the footer of this theme's templates. You may use and modify this theme to your personal likings, but redistributing a modified version for download without including credit is prohibited, unless you have explicit written permission from "Vintagedaddyo", though you are allowed to redistribute a copy that has been modified and retains credit while adding your own credit as well.
 
 
-FA5Dark v1.0
+FA5Dark v1.1
 » Changelog:
 
 History:
 
+09/29/2021 - Theme updated for mybb 1.8.27
 08/10/2020 - Theme updated for mybb 1.8.24
 07/23/2020 - Theme updated for mybb 1.8.23
 01/1/2020 - Theme updated for mybb 1.8.22
