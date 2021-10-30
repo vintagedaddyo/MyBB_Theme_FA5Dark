@@ -3,7 +3,7 @@
 FA5Dark v1.1
 » About:
 
-Current FA 5 library: fontawesome-free-5.14.0
+Current FA 5 library: fontawesome-free-5.15.4
 
 This theme for MyBB enthusiasts is made simply to allow for users having troubles with the Font Awesome 5 tutorials provided and found here: https://community.mybb.com/thread-220017.html
 
@@ -31,6 +31,7 @@ FA5Dark v1.1
 
 History:
 
+10/30/2021 - Theme updated for mybb 1.8.29
 09/29/2021 - Theme updated for mybb 1.8.27
 08/10/2020 - Theme updated for mybb 1.8.24
 07/23/2020 - Theme updated for mybb 1.8.23
