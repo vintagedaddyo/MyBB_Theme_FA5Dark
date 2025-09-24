@@ -13,11 +13,11 @@ This theme for MyBB enthusiasts is made simply to allow for users having trouble
 FA5Dark v1.2
 » Installation:
 
-1.) After downloading the Theme unpack it (with 7-Zip for example)
-2.) Upload the contents of "Upload" into your forums main directory.
-3.) Go to the Admin Control Panel under Themes > Import
-4.) Search for the XML File titled "FA5Dark-theme.xml" in the theme folder found on your computer and click the Button "Import Theme" this will upload the file from your computer to your forum.
-5.) Now have fun with your forum!
+* 1.) After downloading the Theme unpack it (with 7-Zip for example)
+* 2.) Upload the contents of "Upload" into your forums main directory.
+* 3.) Go to the Admin Control Panel under Themes > Import
+* 4.) Search for the XML File titled "FA5Dark-theme.xml" in the theme folder found on your computer and click the Button "Import Theme" this will upload the file from your computer to your forum.
+* 5.) Now have fun with your forum!
 
 FA5Dark v1.2
 » License:
@@ -31,13 +31,13 @@ FA5Dark v1.2
 
 History:
 
-09/23/2025 - Theme updated for mybb 1.8.39
-03/16/2022 - Theme updated for mybb 1.8.30
-10/30/2021 - Theme updated for mybb 1.8.29
-09/29/2021 - Theme updated for mybb 1.8.27
-08/10/2020 - Theme updated for mybb 1.8.24
-07/23/2020 - Theme updated for mybb 1.8.23
-01/1/2020 - Theme updated for mybb 1.8.22
-6/27/2019 — Theme updated for mybb 1.8.21
-2/28/2019 — Theme updated for mybb 1.8.20
-11/2/2018 — Theme initial creation
+- 09/23/2025 - Theme updated for mybb 1.8.39
+- 03/16/2022 - Theme updated for mybb 1.8.30
+- 10/30/2021 - Theme updated for mybb 1.8.29
+- 09/29/2021 - Theme updated for mybb 1.8.27
+- 08/10/2020 - Theme updated for mybb 1.8.24
+- 07/23/2020 - Theme updated for mybb 1.8.23
+- 01/1/2020 - Theme updated for mybb 1.8.22
+- 6/27/2019 — Theme updated for mybb 1.8.21
+- 2/28/2019 — Theme updated for mybb 1.8.20
+- 11/2/2018 — Theme initial creation
