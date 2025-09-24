@@ -31,6 +31,7 @@ FA5Dark v1.2
 
 History:
 
+09/23/2025 - Theme updated for mybb 1.8.39
 03/16/2022 - Theme updated for mybb 1.8.30
 10/30/2021 - Theme updated for mybb 1.8.29
 09/29/2021 - Theme updated for mybb 1.8.27
